@@ -1,0 +1,5 @@
+﻿  cifafenxi.cpp
+f:\vcproject\vcnorproject\cifafenxi\cifafenxi\cifafenxi.cpp(289): warning C4477: “sprintf_s”: 格式字符串“%-15s”需要类型“char *”的参数，但可变参数 2 拥有了类型“int”
+f:\vcproject\vcnorproject\cifafenxi\cifafenxi\cifafenxi.cpp(289): warning C4474: sprintf_s: 格式字符串中传递的参数太多
+  f:\vcproject\vcnorproject\cifafenxi\cifafenxi\cifafenxi.cpp(289): note: 占位符和其参数预计 2 可变参数，但提供的却是 3 参数
+  cifafenxi.vcxproj -> F:\VCproject\vcnorproject\cifafenxi\Debug\cifafenxi.exe

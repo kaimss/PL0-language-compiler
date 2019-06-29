@@ -1,0 +1,54 @@
+·ûºÅ±í£º
+name      kind      value     level     addr      top       
+c1        const     10        --        --        0         
+v1        varible   --        0         3         0         
+v2        varible   --        0         4         0         
+p1        procedure --        0         9         1         
+v3        varible   --        1         3         1         
+v4        varible   --        1         4         1         
+p2        procedure --        1         3         2         
+v5        varible   --        2         3         2         
+v6        varible   --        2         4         2         
+p3        procedure --        0         24        3         
+v7        varible   --        1         3         3         
+v8        varible   --        1         4         3         
+p4        procedure --        1         18        4         
+v9        varible   --        2         3         4         
+v10       varible   --        2         4         4         
+Ö¸Áî£º
+index  f     l     a     
+0     JMP   0     31    
+1     JMP   0     9     
+2     JMP   0     3     
+3     INT   0     5     
+4     LOD   1     3     
+5     LOD   0     3     
+6     OPR   0     2     
+7     STO   2     4     
+8     OPR   0     0     
+9     INT   0     5     
+10    CAL   0     3     
+11    LOD   0     3     
+12    LOD   0     4     
+13    OPR   0     2     
+14    STO   1     4     
+15    OPR   0     0     
+16    JMP   0     24    
+17    JMP   0     18    
+18    INT   0     5     
+19    LOD   1     3     
+20    LOD   0     3     
+21    OPR   0     2     
+22    STO   2     3     
+23    OPR   0     0     
+24    INT   0     5     
+25    CAL   0     18    
+26    LOD   0     4     
+27    LOD   0     3     
+28    OPR   0     2     
+29    STO   1     3     
+30    OPR   0     0     
+31    INT   0     5     
+32    CAL   0     9     
+33    CAL   0     9     
+34    OPR   0     0     

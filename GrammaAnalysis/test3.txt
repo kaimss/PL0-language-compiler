@@ -1,0 +1,14 @@
+const c1=10;
+var v1;
+procedure p1;
+    if v1<5 then
+        begin
+            v1:=v1+1;
+            write(v1);
+            call p1;
+        end;
+ 
+begin
+    read(v1);
+    call p1;
+end.

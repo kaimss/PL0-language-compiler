@@ -1,0 +1,30 @@
+const c1=10;
+var v1,v2;
+procedure p1;
+  var v3,v4;
+  procedure p2;
+    var v5,v6;
+    begin
+      v2:=v3+v5;
+    end;
+  begin
+    call p2;
+    v2:=v3+v4;
+  end;
+
+procedure p3;
+  var v7,v8;
+  procedure p4;
+    var v9,v10;
+    begin
+      v1:=v7+v9;
+    end;
+  begin
+    call p4;
+    v1:=v8+v7;
+  end;
+
+begin
+  call p1;
+  call p1;
+end.

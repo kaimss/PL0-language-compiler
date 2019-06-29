@@ -1,0 +1,32 @@
+consT c1=2;
+var v1,v2,v3,v4;
+procedure p1;
+ var v5;
+ begin
+  v5:=2;
+  write(v5/2+2-1);
+  while v3#0 do
+  begin
+   v4:=v1/v2;
+   v3:=v1-v4*v2;
+   v1:=v2;
+   v2:=v3;
+  end;
+ end;
+
+
+begin
+ read(v1,v2);
+ if v1<v2 then
+ begin
+  v3:=v1;
+  v1:=v2;
+  v2:=v3;
+ end;
+ begin;
+  v3:=1;
+  call p1;
+  write(c1,c1*v1,c1*v1/2);
+ end;
+
+end.
